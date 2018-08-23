@@ -14,6 +14,7 @@ app.use('/__gtg', (req, res) =>
 app.use((req, res) =>
   res
     .header('Cache-Control', 'private, no-cache, no-store, must-revalidate')
+    .status(req.headers['Dummy-Status'] || 200)
     .json({
       cookies: req.cookies,
       headers: req.headers,
