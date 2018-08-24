@@ -1,0 +1,6 @@
+{
+  "name": "dummy-service",
+  "alias": "dummy.now.sh",
+  "type": "npm"
+}
+
