@@ -1,11 +1,11 @@
 {
   "name": "dummy-service",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "A simple, minimal express service for testing and debugging CDNs, load-balancers and proxies, as a safe, known backend.",
   "main": "main.js",
   "author": "Alex Wilson <a@ax.gy>",
   "license": "ISC",
-  "bin": "./main",
+  "bin": "./main.js",
   "scripts": {
     "start": "node main"
   },

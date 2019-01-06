@@ -1,13 +1,15 @@
 # Dummy Service
 
-A simple, minimal express service for use in Fastly for testing and debugging, as a safe, known backend.
+![Dummy Service](./img/dummy_system.png "EVA Dummy Plug System")
+
+A simple, minimal express service for testing and debugging CDNs, load-balancers and proxies, as a safe, known backend.
 It will return all HTTP data sent to it.
 
 There is a public instance running on `dummy.now.sh`.
 
 ---
 
-*Warning*: This will reflect _everything_ that is sent to it, including potentially your authentication/authorization secrets.
+**Warning**: This will reflect _everything_ that is sent to it, including potentially your authentication/authorization secrets.
 Please take care not to leak anything sensitive.
 
 ---
