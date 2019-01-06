@@ -5,11 +5,13 @@
   "main": "main.js",
   "author": "Alex Wilson <a@ax.gy>",
   "license": "ISC",
+  "bin": "./main",
   "scripts": {
     "start": "node main"
   },
   "dependencies": {
     "cookie-parser": "^1.4.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "snyk": "^1.120.1"
   }
 }
